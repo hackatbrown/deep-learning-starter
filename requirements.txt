@@ -1,0 +1,31 @@
+# =====================================
+# Deep Learning Starter Requirements
+# =====================================
+
+# To run this file, please run command:
+# pip install -r requirements.txt
+# in your terminal.
+
+# Core utilities
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+pyyaml>=6.0
+
+# Deep learning frameworks
+torch>=2.1.0
+torchvision>=0.16.0
+tensorflow>=2.14.0
+
+# Development tools
+jupyterlab>=4.0.0
+tqdm>=4.65.0
+
+# Optional: data visualization and debugging
+seaborn>=0.12.0
+tensorboard>=2.14.0
+
+# (Optional) GPU support — uncomment if needed
+# torch==2.1.0+cu118   # for CUDA 11.8
+# tensorflow-gpu>=2.14.0
