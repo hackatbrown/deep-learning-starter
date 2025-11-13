@@ -1,4 +1,4 @@
-# deep-learning-starter
+# Deep Learning Starter
 Hi, welcome to Hack@Brown's Deep Learning starter kit. We will go over how to set up your environment
 to build deep learning models and also some of the most useful packages. The main goal of this starter
 kit is to equip you with the tools to be able to build and train neural networks that can learn
@@ -46,6 +46,9 @@ depending on which framework you would like your model use.
 
 There are also blank versions of all the relevant files for you to fill out if you would like a more hands-on learning experience or want to use it as a stencil for coding your own model. [**Please note:** if you want to train and run the blank versions, replace all terminal commands given above with the corresponding blank file name, ex: `python src/train_blank.py --framework pytorch`]
 ### What's Included:
+The diagram below shows the overall framework of the simple model that is included:
+![alt text](diagram.png)
+
 There are two main Python scripts included in this starter pack:
 
 `train.py`
@@ -84,3 +87,4 @@ This file measures how well the trained model generalizes to unseen data to test
 4. Optionally visualizes predictions, such as showing correct and incorrect classifications, to help you spot biases or failure patterns in your model.
 
 Conceptually, this step demonstrates the difference between training accuracy and generalization — the model’s ability to perform well on new data rather than just the examples it saw before.
+
