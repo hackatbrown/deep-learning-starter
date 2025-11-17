@@ -1,3 +1,9 @@
+"""
+This module provides evaluation functions for trained models. It loads the test
+dataset, runs inference, computes metrics like accuracy, and returns or prints
+the results.
+"""
+
 import torch
 import torch.nn.functional as F
 

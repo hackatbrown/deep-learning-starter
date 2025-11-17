@@ -1,3 +1,9 @@
+"""
+This module defines a simple PyTorch neural network used for training on MNIST.
+It creates the model class, sets up the forward pass, and exposes a factory
+function so the training script can easily create the model.
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

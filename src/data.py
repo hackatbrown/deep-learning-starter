@@ -1,3 +1,9 @@
+"""
+This module handles loading the MNIST dataset and preparing it for training.
+It applies basic preprocessing, downloads the data if it's missing, and returns
+PyTorch DataLoader objects that supply batches to the training loop.
+"""
+
 import torch
 from torchvision import datasets, transforms
 

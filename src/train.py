@@ -1,3 +1,9 @@
+"""
+This script coordinates the full training workflow. It loads data, creates the
+model (either PyTorch or TensorFlow), runs the training loop, saves checkpoints,
+and prints progress updates during training.
+"""
+
 import argparse
 import os
 import torch

@@ -1,3 +1,9 @@
+"""
+This module builds a small TensorFlow/Keras neural network for MNIST.
+It sets up the layers, compiles the model with loss and optimizer settings,
+and exposes a function the training script can call to create the model.
+"""
+
 import tensorflow as tf
 from tensorflow.keras import layers, models
 

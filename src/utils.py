@@ -1,3 +1,9 @@
+"""
+This file includes helper utilities used across the project. It may include
+functions for saving/loading models, logging training progress, timing runs, or
+other small utilities that keep the main code clean.
+"""
+
 import os
 import yaml
 import random
